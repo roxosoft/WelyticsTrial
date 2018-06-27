@@ -37,7 +37,7 @@ a{cursor: pointer;
     display: inline-block; }
   .ngx-pagination a,
   .ngx-pagination button {
-    color: #0a0a0a; 
+    color: #0a0a0a;
     display: block;
     padding: 0.1875rem 0.625rem;
     border-radius: 0; }
@@ -52,7 +52,7 @@ a{cursor: pointer;
   .ngx-pagination .disabled {
     padding: 0.1875rem 0.625rem;
     color: #cacaca;
-    cursor: default; } 
+    cursor: default; }
     .ngx-pagination .disabled:hover {
       background: transparent; }
   .ngx-pagination .ellipsis::after {
@@ -61,7 +61,7 @@ a{cursor: pointer;
     color: #0a0a0a; }
 
 .ngx-pagination .pagination-previous a::before,
-.ngx-pagination .pagination-previous.disabled::before { 
+.ngx-pagination .pagination-previous.disabled::before {
   content: '«';
   display: inline-block;
   margin-right: 0.5rem; }
@@ -2438,7 +2438,7 @@ a{cursor: pointer;
 
 /* General ===================================== */
 body {
-  background-color: #e9e9e9;
+  background-color: #dedee8;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
   -webkit-transition: all 0.5s;
@@ -7584,7 +7584,7 @@ fieldset[disabled] .form-control {
     white-space: nowrap;
     position: relative;
     border-bottom: 1px solid #e9e9e9;
-    background: url("../images/user-img-background.jpg") no-repeat no-repeat;
+    /*background: url("../images/user-img-background.jpg") no-repeat no-repeat;*/
     height: 135px; }
     .sidebar .user-info .image {
       margin-right: 12px;

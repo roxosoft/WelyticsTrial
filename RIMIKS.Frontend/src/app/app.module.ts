@@ -14,8 +14,10 @@ import { AbpModule } from '@abp/abp.module';
 
 import { ServiceProxyModule } from '@shared/service-proxies/service-proxy.module';
 import { SharedModule } from '@shared/shared.module';
+import { DevExtremeModule } from 'devextreme-angular';
 
 import { HomeComponent } from '@app/home/home.component';
+import { RiskInventoryComponent } from '@app/riskinventory/riskinventory.component';
 import { AboutComponent } from '@app/about/about.component';
 import { UsersComponent } from '@app/users/users.component';
 import { CreateUserComponent } from '@app/users/create-user/create-user.component';
@@ -38,6 +40,7 @@ import { MaterialInput } from '@shared/directives/material-input.directive';
     declarations: [
         AppComponent,
         HomeComponent,
+        RiskInventoryComponent,
         AboutComponent,
         TenantsComponent,
 		CreateTenantComponent,
@@ -45,7 +48,7 @@ import { MaterialInput } from '@shared/directives/material-input.directive';
         UsersComponent,
 		CreateUserComponent,
 		EditUserComponent,
-      	RolesComponent,        
+      	RolesComponent,
 		CreateRoleComponent,
 		EditRoleComponent,
         TopBarComponent,
@@ -54,9 +57,10 @@ import { MaterialInput } from '@shared/directives/material-input.directive';
         SideBarNavComponent,
         SideBarFooterComponent,
         RightSideBarComponent
-    
+
     ],
     imports: [
+        DevExtremeModule,
         CommonModule,
         FormsModule,
         HttpClientModule,

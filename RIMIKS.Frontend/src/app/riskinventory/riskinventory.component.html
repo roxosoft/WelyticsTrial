@@ -1,0 +1,31 @@
+﻿<div class="row clearfix" [@routerTransition]>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="card">
+            <div class="header">
+                <h2>
+                    {{header}}
+                </h2>
+            </div>
+            <div class="body">
+                <dx-data-grid
+                        [dataSource]="dummyData"
+                        [hoverStateEnabled]="true"
+                        (onRowClick)="onRowClick($event)">
+                    <dxo-paging [pageSize]="10"></dxo-paging>
+                    <dxo-pager
+                            [showPageSizeSelector]="true"
+                            [allowedPageSizes]="[5, 10, 20]"
+                            [showInfo]="true">
+                    </dxo-pager>
+
+                    <dxi-column dataField="Risk" [caption]="this.l('Risk')"></dxi-column>
+                    <dxi-column dataField="Category" [caption]="this.l('Category')"></dxi-column>
+                    <dxi-column dataField="AreaOfRisk" [caption]="this.l('AreaOfRisk')"></dxi-column>
+                    <dxi-column dataField="Relevance" [caption]="this.l('Relevance')"></dxi-column>
+                    <dxi-column dataField="Owner" [caption]="this.l('Owner')"></dxi-column>
+                    <dxi-column dataField="Year" [caption]="this.l('Year')"></dxi-column>
+                </dx-data-grid>
+            </div>
+        </div>
+    </div>
+</div>

@@ -853,8 +853,16 @@
   .theme-blue-grey .sidebar .legal .copyright a {
     color: #607D8B !important; }
 
+
+
+
+
+
+
+
+
 .theme-black .navbar {
-  background-color: #000; }
+  background-color: #3f3f3d; }
 
 .theme-black .navbar-brand {
   color: #fff; }
@@ -885,7 +893,7 @@
 .theme-black .sidebar .menu .list li.active {
   background-color: transparent; }
   .theme-black .sidebar .menu .list li.active > :first-child i, .theme-black .sidebar .menu .list li.active > :first-child span {
-    color: #000; }
+    color: #e5e5e5; }
 
 .theme-black .sidebar .menu .list .toggled {
   background-color: transparent; }
@@ -893,8 +901,11 @@
 .theme-black .sidebar .menu .list .ml-menu {
   background-color: transparent; }
 
+.theme-black .sidebar {
+    background-color: #8c8d92; }
+
 .theme-black .sidebar .legal {
-  background-color: #fff; }
+  background-color: #8c8d92; }
   .theme-black .sidebar .legal .copyright a {
     color: #000 !important; }
 
